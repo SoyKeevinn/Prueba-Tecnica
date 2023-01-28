@@ -7,6 +7,7 @@ import { HeardComponent } from './component/heard/heard.component';
 import { BodyComponent } from './component/body/body.component';
 import { FooterComponent } from './component/footer/footer.component';
 import { LayoutSimpleComponent } from './layout/layout-simple/layout-simple.component';
+import { MainComponent } from './component/main/main.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { LayoutSimpleComponent } from './layout/layout-simple/layout-simple.comp
     HeardComponent,
     BodyComponent,
     FooterComponent,
-    LayoutSimpleComponent
+    LayoutSimpleComponent,
+    MainComponent
   ],
   imports: [
     BrowserModule,
