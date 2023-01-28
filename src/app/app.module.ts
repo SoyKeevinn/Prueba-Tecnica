@@ -8,6 +8,7 @@ import { BodyComponent } from './component/body/body.component';
 import { FooterComponent } from './component/footer/footer.component';
 import { LayoutSimpleComponent } from './layout/layout-simple/layout-simple.component';
 import { MainComponent } from './component/main/main.component';
+import { InformationComponent } from './component/information/information.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { MainComponent } from './component/main/main.component';
     BodyComponent,
     FooterComponent,
     LayoutSimpleComponent,
-    MainComponent
+    MainComponent,
+    InformationComponent
   ],
   imports: [
     BrowserModule,
